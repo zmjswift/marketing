@@ -1,0 +1,3189 @@
+    .button-gold,
+    .button-red {
+        border-radius: 30px;
+        display: inline-block;
+        cursor: pointer;
+        text-transform: uppercase;
+        -webkit-transition: background .2s ease-in;
+        color: #fff
+    }
+
+    .button-black.halfopacity,
+    .button-dark_grey.halfopacity,
+    .button-gold.halfopacity,
+    .button-grey.halfopacity,
+    .button-grey_text.halfopacity,
+    .button-red.halfopacity,
+    .button-superdark_grey.halfopacity,
+    .button-white.halfopacity,
+    .button-whitebf.halfopacity {
+        opacity: .5
+    }
+
+    .button-red br,
+    .button-red br:after,
+    .main_block_product h1 br,
+    .main_block_product h1 br:after,
+    .main_fixed_bar .top_title br,
+    .main_fixed_bar .top_title br:after {
+        content: ' '
+    }
+
+    .button-red {
+        background-color: #B8513A;
+        padding: 20px 50px;
+        transition: background .2s ease-in;
+        font-size: 14px;
+        font-weight: lighter
+    }
+
+    .button-red.focus,
+    .button-red:hover {
+        color: #fff;
+        background-color: #C19D56;
+        text-decoration: none
+    }
+
+    .button-red.little {
+        padding: 11px 20px 13px;
+        font-size: 12px;
+        font-weight: 400
+    }
+
+    @media (min-width:1024px) {
+        .button-red.red-home {
+            margin-top: 12px;
+            font-size: 18px
+        }
+    }
+
+    .button-red.white-home {
+        font-size: 16px
+    }
+
+    .button-gold {
+        background-color: #C19D56;
+        padding: 20px 50px;
+        transition: background .2s ease-in;
+        font-size: 14px;
+        font-weight: lighter
+    }
+
+    .button-white,
+    .button-whitebf {
+        border-radius: 30px;
+        display: inline-block;
+        cursor: pointer;
+        text-transform: uppercase;
+        -webkit-transition: background .2s ease-in
+    }
+
+    .button-gold.focus,
+    .button-gold:hover {
+        color: #fff;
+        background-color: #C19D56;
+        text-decoration: none
+    }
+
+    .button-gold.little {
+        padding: 11px 20px 13px;
+        font-size: 12px;
+        font-weight: 400
+    }
+
+    @media (min-width:1024px) {
+        .button-gold.red-home {
+            margin-top: 12px;
+            font-size: 18px
+        }
+    }
+
+    .button-gold.white-home {
+        font-size: 16px
+    }
+
+    .button-white {
+        color: #fff;
+        background-color: "transparent";
+        padding: 20px 50px;
+        transition: background .2s ease-in;
+        font-size: 14px;
+        font-weight: lighter;
+        border: 2px solid #fff
+    }
+
+    .button-white.focus,
+    .button-white:hover {
+        color: #000;
+        background-color: #fff;
+        text-decoration: none
+    }
+
+    .button-white.little {
+        padding: 11px 20px 13px;
+        font-size: 12px;
+        font-weight: 400
+    }
+
+    @media (min-width:1024px) {
+        .button-white.red-home {
+            margin-top: 12px;
+            font-size: 18px
+        }
+    }
+
+    .button-white.white-home {
+        font-size: 16px
+    }
+
+    .button-whitebf {
+        color: #000;
+        background-color: #fff;
+        padding: 20px 50px;
+        transition: background .2s ease-in;
+        font-size: 14px;
+        font-weight: lighter;
+        border: 2px solid #fff
+    }
+
+    .button-dark_grey,
+    .button-grey {
+        border-radius: 30px;
+        display: inline-block;
+        cursor: pointer;
+        text-transform: uppercase;
+        -webkit-transition: background .2s ease-in
+    }
+
+    .button-whitebf.focus,
+    .button-whitebf:hover {
+        color: #000;
+        background-color: #fff;
+        text-decoration: none
+    }
+
+    .button-whitebf.little {
+        padding: 11px 20px 13px;
+        font-size: 12px;
+        font-weight: 400
+    }
+
+    @media (min-width:1024px) {
+        .button-whitebf.red-home {
+            margin-top: 12px;
+            font-size: 18px
+        }
+    }
+
+    .button-whitebf.white-home {
+        font-size: 16px
+    }
+
+    .button-grey {
+        color: #C2C2C2;
+        background-color: "transparent";
+        padding: 20px 50px;
+        transition: background .2s ease-in;
+        font-size: 14px;
+        font-weight: lighter;
+        border: 2px solid #C2C2C2
+    }
+
+    .button-grey.focus,
+    .button-grey:hover {
+        color: #fff;
+        background-color: #C2C2C2;
+        text-decoration: none
+    }
+
+    .button-grey.little {
+        padding: 11px 20px 13px;
+        font-size: 12px;
+        font-weight: 400
+    }
+
+    @media (min-width:1024px) {
+        .button-grey.red-home {
+            margin-top: 12px;
+            font-size: 18px
+        }
+    }
+
+    .button-grey.white-home {
+        font-size: 16px
+    }
+
+    .button-dark_grey {
+        color: #adadad;
+        background-color: "transparent";
+        padding: 20px 50px;
+        transition: background .2s ease-in;
+        font-size: 14px;
+        font-weight: lighter;
+        border: 2px solid #adadad
+    }
+
+    .button-black,
+    .button-superdark_grey {
+        border-radius: 30px;
+        -webkit-transition: background .2s ease-in;
+        text-transform: uppercase;
+        display: inline-block;
+        cursor: pointer
+    }
+
+    .button-dark_grey.focus,
+    .button-dark_grey:hover {
+        color: #fff;
+        background-color: #adadad;
+        text-decoration: none
+    }
+
+    .button-dark_grey.little {
+        padding: 11px 20px 13px;
+        font-size: 12px;
+        font-weight: 400
+    }
+
+    @media (min-width:1024px) {
+        .button-dark_grey.red-home {
+            margin-top: 12px;
+            font-size: 18px
+        }
+    }
+
+    .button-dark_grey.white-home {
+        font-size: 16px
+    }
+
+    .button-black {
+        color: #000;
+        background-color: "transparent";
+        padding: 20px 50px;
+        transition: background .2s ease-in;
+        font-size: 14px;
+        font-weight: lighter;
+        border: 2px solid #000
+    }
+
+    .button-black.focus,
+    .button-black:hover {
+        color: #fff;
+        background-color: #000;
+        text-decoration: none
+    }
+
+    .button-black.little {
+        padding: 11px 20px 13px;
+        font-size: 12px;
+        font-weight: 400
+    }
+
+    @media (min-width:1024px) {
+        .button-black.red-home {
+            margin-top: 12px;
+            font-size: 18px
+        }
+    }
+
+    .button-black.white-home {
+        font-size: 16px
+    }
+
+    .button-superdark_grey {
+        color: #666;
+        background-color: "transparent";
+        padding: 20px 50px;
+        transition: background .2s ease-in;
+        font-size: 14px;
+        font-weight: lighter;
+        border: 2px solid #666
+    }
+
+    .button-superdark_grey.focus,
+    .button-superdark_grey:hover {
+        color: #fff;
+        background-color: #666;
+        text-decoration: none
+    }
+
+    .button-superdark_grey.little {
+        padding: 11px 20px 13px;
+        font-size: 12px;
+        font-weight: 400
+    }
+
+    @media (min-width:1024px) {
+        .button-superdark_grey.red-home {
+            margin-top: 12px;
+            font-size: 18px
+        }
+    }
+
+    .button-superdark_grey.white-home {
+        font-size: 16px
+    }
+
+    .button-grey_text {
+        color: #666;
+        background-color: "transparent";
+        border-radius: 30px;
+        padding: 20px 50px;
+        display: inline-block;
+        cursor: pointer;
+        text-transform: uppercase;
+        -webkit-transition: background .2s ease-in;
+        transition: background .2s ease-in;
+        font-size: 14px;
+        font-weight: lighter;
+        border: 2px solid #666
+    }
+
+    .button-grey_text.focus,
+    .button-grey_text:hover {
+        color: #fff;
+        background-color: #666;
+        text-decoration: none
+    }
+
+    .button-grey_text.little {
+        padding: 11px 20px 13px;
+        font-size: 12px;
+        font-weight: 400
+    }
+
+    @media (min-width:1024px) {
+        .button-grey_text.red-home {
+            margin-top: 12px;
+            font-size: 18px
+        }
+    }
+
+    .button-grey_text.white-home {
+        font-size: 16px
+    }
+
+    .landing_button_sumi {
+        font-size: 13px;
+        display: inline-block;
+        font-weight: 400;
+        padding: 12px 20px 9px;
+        text-decoration: none;
+        color: #FFF;
+        min-width: 83px;
+        outline: 0;
+        text-transform: uppercase;
+        font-family: "Fira Sans";
+        border-bottom: solid 2px #E8458B;
+        background: #E8458B;
+        cursor: pointer;
+        text-align: center
+    }
+
+    .landing_button_sumi:hover {
+        color: #fff;
+        text-decoration: none
+    }
+
+    .landing_sprite {
+        margin: 0 auto 15px;
+        width: 89px;
+        height: 89px;
+        background-size: 152px
+    }
+
+    .man .landing_sprite {
+        background-image: url(https://d2yo8p89bpsqlq.cloudfront.net/images/man_landings/desktop-sprite_v2.png)
+    }
+
+    .woman .landing_sprite {
+        background-image: url(https://d2yo8p89bpsqlq.cloudfront.net/images/woman/desktop-sprite_v2.png)
+    }
+
+    .landing_sprite.needle {
+        width: 60px;
+        height: 60px;
+        background-size: 152px;
+        background-position: 5px 0
+    }
+
+    .landing_sprite.shirt {
+        background-position: 12px -157px
+    }
+
+    .landing_sprite.fabrics {
+        background-position: 1px -280px
+    }
+
+    .landing_sprite.measure {
+        background-position: 2px -389px
+    }
+
+    .landing_sprite.box {
+        background-position: 2px -506px
+    }
+
+    .landing_sprite.list {
+        background-position: 2px -640px
+    }
+
+    .landing_sprite.shirt.jeans,
+    .landing_sprite.shirt.jeans_mobile {
+        background-position: 0 0 !important
+    }
+
+    .landing_sprite.jeans,
+    .landing_sprite.jeans_mobile {
+        background-image: url(https://d2yo8p89bpsqlq.cloudfront.net/images/man_landings/jeans_icons.svg) !important
+    }
+
+    .landing_sprite.jeans {
+        margin: 0 auto 15px;
+        width: 65px;
+        height: 89px;
+        background-size: 61px
+    }
+
+    .landing_sprite.fabrics.jeans_fabrics {
+        background-position: -28px -280px
+    }
+
+    .landing_sprite.jeans_fabrics {
+        background-image: url(https://d2yo8p89bpsqlq.cloudfront.net/images/man_landings/fabrics_icons.svg)
+    }
+
+    .landing_sprite.jeans_mobile {
+        margin: 0 auto 15px 11px;
+        width: 66px;
+        height: 103px;
+        background-size: 71px
+    }
+
+    .main_block_config {
+        min-height: auto;
+        padding: 6vw 3vw;
+        background: #c9c8c6;
+        text-align: center;
+        position: relative
+    }
+
+    .main_block_config .title {
+        margin: 0 0 2vw
+    }
+
+    .main_block_config .title p.title_where {
+        line-height: 50px;
+        font-size: 50px;
+        color: #FFF;
+        margin-bottom: 15px;
+        letter-spacing: 1px
+    }
+
+    .main_block_config .more_info {
+        position: initial;
+        margin: 2vw 0 0
+    }
+
+    .main_block_config .more_info p {
+        max-width: 1000px;
+        margin: 0 auto 37px
+    }
+
+    .main_block_config .more_info .cta {
+        font-size: 14px
+    }
+
+    .main_block_config p {
+        max-width: 1000px;
+        font-size: 18px;
+        color: #5d6568;
+        line-height: 25px;
+        margin: 0 auto
+    }
+
+    .main_block_config .images {
+        height: 30vw;
+        position: relative;
+        margin-bottom: 4vw
+    }
+
+    .main_block_config .images img {
+        position: absolute;
+        -webkit-transition-duration: 1s;
+        transition-duration: 1s;
+        opacity: 0;
+        -webkit-transition-property: opacity, -webkit-transform;
+        transition-property: opacity, -webkit-transform;
+        transition-property: opacity, transform;
+        transition-property: opacity, transform, -webkit-transform;
+        -webkit-transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
+        transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
+        width: auto
+    }
+
+    .main_block_config .images img.mobile {
+        height: 20vw;
+        bottom: 0;
+        right: 50%;
+        margin-right: 17vw;
+        -webkit-transform: translate3d(-30vw, 0, 0);
+        transform: translate3d(-30vw, 0, 0)
+    }
+
+    .main_block_config .images img.tablet {
+        height: 28vw;
+        top: 0;
+        left: 50%;
+        margin-left: -21vw;
+        -webkit-transform: translate3d(0, 150px, 0);
+        transform: translate3d(0, 150px, 0)
+    }
+
+    .main_block_config .images img.desktop {
+        bottom: 0;
+        left: 50%;
+        margin-left: -8vw;
+        z-index: 3;
+        height: 25vw;
+        -webkit-transform: translate3d(50vw, 0, 0);
+        transform: translate3d(50vw, 0, 0)
+    }
+
+    .main_block_config .images img.b-loaded {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1
+    }
+
+    .man_shoe_landing .main_block_config.video,
+    .man_sneaker_landing .main_block_config.video {
+        position: relative;
+        height: 60vw;
+        min-height: 300px;
+        padding: 0
+    }
+
+    .man_shoe_landing .main_block_config.video video,
+    .man_sneaker_landing .main_block_config.video video {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        min-width: 100%;
+        min-height: 100%
+    }
+
+    .man_shoe_landing .main_block_config.video .body_box,
+    .man_sneaker_landing .main_block_config.video .body_box {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 33%
+    }
+
+    .man_shoe_landing .main_block_config.video .body_box .title p.title_where,
+    .man_sneaker_landing .main_block_config.video .body_box .title p.title_where {
+        max-width: 950px;
+        font-size: 65px;
+        line-height: 72px;
+        margin-bottom: 40px;
+        text-transform: none;
+        font-weight: lighter
+    }
+
+    .man_shoe_landing .main_block_config.video .body_box .more_info .button-red,
+    .man_sneaker_landing .main_block_config.video .body_box .more_info .button-red {
+        color: #FFF;
+        background-color: transparent;
+        border-radius: 50px;
+        padding: 20px 75px;
+        display: inline-block;
+        cursor: pointer;
+        text-transform: uppercase;
+        -webkit-transition: background .2s ease-in;
+        transition: background .2s ease-in;
+        font-size: 20px;
+        font-weight: 400;
+        border: 2px solid #FFF
+    }
+
+    #body_height,
+    .related_products .image {
+        -webkit-transition: all .5s ease-in-out
+    }
+
+    .man_shoe_landing .main_block_config.video .body_box .more_info .button-red:hover,
+    .man_sneaker_landing .main_block_config.video .body_box .more_info .button-red:hover {
+        color: #333;
+        background-color: #fffad;
+        text-decoration: none
+    }
+
+    @-webkit-keyframes fadeout {
+        0% {
+            opacity: 1
+        }
+
+        100% {
+            opacity: 0
+        }
+    }
+
+    @keyframes fadeout {
+        0% {
+            opacity: 1
+        }
+
+        100% {
+            opacity: 0
+        }
+    }
+
+    .main_block_product .fadeOut {
+        opacity: 0;
+        -webkit-animation: fadeout .1s linear;
+        animation: fadeout .1s linear
+    }
+
+    @-webkit-keyframes fadein {
+        0% {
+            opacity: 0
+        }
+
+        100% {
+            opacity: 1
+        }
+    }
+
+    @keyframes fadein {
+        0% {
+            opacity: 0
+        }
+
+        100% {
+            opacity: 1
+        }
+    }
+
+    .main_block_product .fadeIn {
+        opacity: 1;
+        -webkit-animation: fadein .1s linear;
+        animation: fadein .1s linear
+    }
+
+    @media (max-width:1200px) {
+        .main_block_config .title h4 {
+            font-size: 40px
+        }
+
+        .main_block_config p {
+            font-size: 13px
+        }
+
+        .main_block_config .title p.title_where {
+            font-size: 40px;
+            line-height: 40px
+        }
+
+        .main_block_config .more_info {
+            margin-bottom: 3.9vw
+        }
+
+        .main_block_config .more_info p {
+            margin: 0 auto 25px
+        }
+    }
+
+    @media (max-width:900px) {
+        .main_block_config .title {
+            margin-top: 3vw
+        }
+
+        .main_block_config .title p.title_where {
+            font-size: 32px;
+            line-height: 32px
+        }
+
+        .main_block_config .more_info p {
+            margin: 0 auto 10px
+        }
+    }
+
+    @media (max-width:800px) {
+        .main_block_config .more_info {
+            margin-bottom: 15.9vw
+        }
+
+        .main_block_config .title p.title_where {
+            line-height: 30px;
+            font-size: 28px;
+            padding: 20px 20px 0;
+            margin-bottom: 10px
+        }
+    }
+
+    .related_products {
+        max-width: 1440px;
+        margin: 20px auto 0
+    }
+
+    .related_products .wrap_list {
+        width: auto;
+        float: none;
+        padding: 0 20px;
+        overflow: hidden;
+        display: block
+    }
+
+    .related_products .title {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        color: #000
+    }
+
+    .related_products .list {
+        margin: 40px auto 0 -2%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
+
+    .related_products .list2 {
+        margin-top: 0
+    }
+
+    .related_products .list .product {
+        width: 18%;
+        margin: 0 0 2% 2%;
+        position: relative;
+        cursor: pointer
+    }
+
+    .blog .related_products .info-fabric-text {
+        width: 100%;
+        top: 85% !important
+    }
+
+    .blog .related_products .info-fabric-text .info_item {
+        margin-bottom: 10px !important
+    }
+
+    .info-fabric-text .info_item {
+        text-transform: uppercase;
+        color: #fff;
+        z-index: 6 !important
+    }
+
+    .info-fabric-text .category_group {
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 2px
+    }
+
+    .info-fabric-text .simple_composition {
+        font-size: 18px;
+        font-weight: 100;
+        margin: .5rem 0;
+        letter-spacing: 2px
+    }
+
+    .info-fabric-text .season {
+        font-size: 12px;
+        font-weight: 100;
+        letter-spacing: 2px
+    }
+
+    .related_products .fabric-container {
+        overflow: hidden
+    }
+
+    .related_products .fabric-container .fabric_hover {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        max-width: unset !important;
+        min-width: none !important;
+        min-height: none !important
+    }
+
+    .related_products .fabric-container .info-fabric-text {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%)
+    }
+
+    .related_products .image {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 200%;
+        position: absolute;
+        left: 0;
+        transition: all .5s ease-in-out
+    }
+
+    .related_products .product {
+        overflow: hidden
+    }
+
+    .info-fabric-text.dark-letters .info_item {
+        color: #000 !important
+    }
+
+    .info-fabric-text.shadow .info_item {
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, .6), 1px 1px 10px #000
+    }
+
+    .related_products .product.try_it .icon-personalize {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        z-index: 1
+    }
+
+    .related_products .product.try_it .icon-personalize img {
+        width: 20px;
+        height: auto !important
+    }
+
+    .related_products div.product.try_it:hover .image {
+        left: 0
+    }
+
+    @media (min-width:600px) {
+        .related_products div.product:hover .image {
+            left: -100%
+        }
+    }
+
+    .related_products .fabric-container,
+    .related_products .main-container {
+        position: relative;
+        height: inherit;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+        align-items: baseline
+    }
+
+    .related_products.man_shoe .fabric-container,
+    .related_products.man_shoe .main-container,
+    .related_products.man_sneaker .fabric-container,
+    .related_products.man_sneaker .main-container,
+    .related_products.woman_shoe .fabric-container,
+    .related_products.woman_shoe .main-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: end
+    }
+
+    .man_shoe_landing .related_products.man_shoe picture,
+    .man_sneaker_landing .related_products.man_sneaker picture,
+    .woman_shoe_landing .related_products.woman_shoe picture {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: end
+    }
+
+    .related_products.man_waistcoat .main-container {
+        max-height: 350px
+    }
+
+    .related_products .list .image {
+        overflow: hidden;
+        text-align: center;
+        position: relative;
+        background: #efefef;
+        padding: 0;
+        min-height: 350px
+    }
+
+    body.mobile .related_products .list .image {
+        overflow: hidden;
+        text-align: center;
+        position: relative;
+        background: #efefef;
+        padding: 0
+    }
+
+    .man_shoe_landing .related_products .list .image,
+    .man_sneaker_landing .related_products .list .image,
+    .woman_shoe_landing .related_products .list .image {
+        height: 300px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+
+    .related_products .list .product.try_it .image {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        bottom: 76px;
+        max-height: none;
+        padding: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+
+    .related_products .list .image img.man_polo.other {
+        margin-bottom: 0
+    }
+
+    .related_products .list .image img.man_waistcoat.other {
+        max-height: 505px
+    }
+
+    .related_products.man_waistcoat .image img.without_model {
+        margin-left: -30px;
+        margin-top: -11px;
+        max-width: 125%
+    }
+
+    .related_products .image img.man_jacket.without_model {
+        margin-left: -15px;
+        max-width: 110%;
+        margin-top: 20px
+    }
+
+    .post .related_products .list .product {
+        min-width: 229px !important
+    }
+
+    .related_products .list .image img {
+        max-width: 100%;
+        max-height: 350px;
+        height: 100%;
+        width: auto;
+        -o-object-fit: cover;
+        object-fit: cover
+    }
+
+    .related_products .list .image img.man_shoe,
+    .related_products .list .image img.man_sneaker,
+    .related_products .list .image img.woman_shoe {
+        max-width: 100%;
+        max-height: 350px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        height: unset !important
+    }
+
+    .related_products .list .image img.other.man_shirt {
+        max-height: 580px;
+        margin-bottom: -248px
+    }
+
+    .related_products.man_jeans .list .image img {
+        min-height: 1px;
+        min-width: 1px;
+        width: auto;
+        max-width: 100%;
+        max-height: 385px;
+        height: 100%
+    }
+
+    .related_products .list .image img.man_jeans.other {
+        margin-top: -156px;
+        max-height: 538px;
+        height: 595px
+    }
+
+    .mobile .related_products.man_jeans .list .image img {
+        max-height: 342px
+    }
+
+    .mobile .related_products .list .image img.man_jeans.other {
+        margin-top: -203px;
+        max-height: 570px;
+        width: 206px;
+        height: 545px
+    }
+
+    .related_products_test.woman_coat .list .image picture img {
+        width: 225px !important
+    }
+
+    .mobile .related_products_test.woman_coat .list .image picture img {
+        width: 166px !important
+    }
+
+    .related_products .list .image amp-img.man_shirt img {
+        position: relative
+    }
+
+    .related_products .list .product.try_it .image img {
+        width: auto;
+        margin-bottom: 10px
+    }
+
+    .related_products .a_view_product .man_shoe.fabric_hover,
+    .related_products .a_view_product .man_sneaker.fabric_hover,
+    .related_products .a_view_product .woman_shoe.fabric_hover {
+        position: relative;
+        width: 100%;
+        height: auto;
+        left: 5px
+    }
+
+    .related_products .a_view_product .man_shoe,
+    .related_products .a_view_product .woman_shoe {
+        margin-bottom: 15%
+    }
+
+    .related_products.man_shoe .image,
+    .related_products.woman_shoe .image {
+        height: 330px
+    }
+
+    .related_products .product a {
+        text-decoration: none
+    }
+
+    .related_products .product .data {
+        height: 76px
+    }
+
+    .related_products .product h3 {
+        text-align: left;
+        padding: 10px 10px 3px;
+        text-transform: none;
+        font-size: 13px;
+        letter-spacing: .5px;
+        color: #212121;
+        font-weight: 100;
+        margin: 0;
+        line-height: 18px
+    }
+
+    .related_products .product .price {
+        text-align: left;
+        font-size: 13px;
+        display: block;
+        padding: 0 10px 3px;
+        line-height: 15px
+    }
+
+    .related_products .product .final_price {
+        color: #343434
+    }
+
+    .related_products .product .dsc_price {
+        color: #ababab;
+        padding: 0 6px 0 0;
+        text-decoration: line-through
+    }
+
+    .related_products .product .final_price.discount {
+        color: #B8513A
+    }
+
+    @media (max-width:1200px) {
+        .related_products .list .product {
+            width: 23%;
+            margin: 0 0 1% 2%;
+            max-width: none;
+            min-width: 227px
+        }
+
+        .related_products .list .product.try_it {
+            display: none
+        }
+
+        .related_products .product h3 {
+            font-size: 14px
+        }
+
+        .related_products .product .price {
+            font-size: 14px;
+            letter-spacing: 1px
+        }
+    }
+
+    .try_it {
+        text-transform: uppercase;
+        margin: 20% 0
+    }
+
+    .try_it .try_it_title {
+        font-size: 20px !important;
+        color: #000;
+        font-weight: 100;
+        margin-bottom: 15px;
+        padding: 0 30px;
+        text-transform: none;
+        line-height: 1.2
+    }
+
+    .body_es .try_it .try_it_title,
+    .body_it .try_it .try_it_title {
+        padding: 0 16%;
+        font-size: 190%
+    }
+
+    .try_it .try_it_title span {
+        font-weight: 700
+    }
+
+    .try_it a.a_view_product {
+        display: block
+    }
+
+    .try_it .final_price_no_desc {
+        display: block;
+        color: #000;
+        font-size: 13px;
+        font-weight: 400;
+        margin: 6% 0;
+        text-transform: none
+    }
+
+    .is_list .try_it .final_price_no_desc {
+        margin: 7% 0
+    }
+
+    .try_it .final_price_no_desc span {
+        display: block;
+        color: #000;
+        font-size: 18px
+    }
+
+    .woman .try_it a.btn {
+        background-color: #E8458B
+    }
+
+    .try_it img {
+        display: block;
+        margin: 0 auto 10px;
+        padding: 0 auto;
+        mix-blend-mode: darken
+    }
+
+    .body_de .try_it img {
+        height: 40px;
+        padding: 6% 0 0
+    }
+
+    .body_ru .try_it .try_it_title {
+        padding: 0 19px;
+        font-size: 19px
+    }
+
+    .body_ru .try_it img {
+        height: 40px;
+        padding: 8% 0 0
+    }
+
+    .try_it a.btn,
+    .try_it a.button-red {
+        padding: 16px 30px;
+        display: table;
+        margin: 1px auto;
+        background-color: #FF7A00;
+        border-radius: 30px;
+        text-align: center;
+        letter-spacing: 1px
+    }
+
+    .try_it a.btn {
+        -webkit-transition: background .2s ease-in;
+        transition: background .2s ease-in;
+        font-size: 13px;
+        color: #FFF;
+        text-transform: none
+    }
+
+    .try_it a.button-red {
+        -webkit-transition: background .2s ease-in;
+        transition: background .2s ease-in;
+        font-size: 13;
+        color: #FFF !important
+    }
+
+    .try_it a.btn:hover,
+    .try_it a.button-red:hover {
+        background-color: #212127
+    }
+
+    span.separator_line {
+        width: 50%;
+        height: 1px;
+        margin-top: 17px;
+        border-top: 1px solid #e5e5e5
+    }
+
+    a.more_products {
+        margin-top: 15px;
+        color: #212727;
+        text-transform: none;
+        font-size: 13px;
+        font-weight: 300
+    }
+
+    @media (max-width:700px) {
+        .related_products .list {
+            margin-left: -2%;
+            min-width: 865px
+        }
+
+        .related_products .list .product {
+            width: auto;
+            max-width: 160px;
+            margin: 0 0 0 10px
+        }
+
+        .amp_mode .related_products .list .product {
+            width: 18%
+        }
+
+        .amp_mode .related_products .list .image {
+            padding: 0
+        }
+
+        .amp_mode .related_products .list .product.try_it amp-img {
+            display: none
+        }
+
+        .amp_mode .try_it .try_it_title {
+            margin-top: 30px
+        }
+
+        .amp_mode .try_it .a_view_product .try_it_title {
+            margin-top: 0;
+            font-size: 15px;
+            padding: 0 15px
+        }
+
+        .related_products .list .product.try_it {
+            width: 23%;
+            display: block
+        }
+
+        .related_products .wrap_list {
+            overflow-x: scroll;
+            padding: 0 10px
+        }
+
+        .try_it a.button-red {
+            padding: 16px 20px
+        }
+
+        .related_products .product h3 {
+            padding: 10px 6px 3px 0
+        }
+
+        .related_products .product .price {
+            padding: 0 10px 3px 0
+        }
+
+        .related_products .list .product.try_it .image img {
+            display: none
+        }
+    }
+
+    @media (min-width:1200px) {
+        .body_es .man_jacket .try_it img {
+            padding: 6% 0 0;
+            height: 40px
+        }
+    }
+
+    @media (max-width:1300px) {
+        .body_it .try_it .try_it_title {
+            padding: 0 14%;
+            font-size: 175%
+        }
+    }
+
+    @media (max-width:1200px) {
+        .body_it .try_it .try_it_title {
+            padding: 0 20%;
+            font-size: 170%
+        }
+    }
+
+    @media (max-width:1100px) {
+        .body_it .try_it .try_it_title {
+            padding: 0 12%;
+            font-size: 170%
+        }
+    }
+
+    @media (max-width:1000px) {
+        .try_it .try_it_title {
+            font-size: 17px;
+            padding: 0 20px
+        }
+
+        .try_it img {
+            height: 40px !important
+        }
+
+        .try_it .final_price_no_desc {
+            margin: 7% 0
+        }
+
+        .body_de .is_list .try_it .try_it_title {
+            font-size: 16px
+        }
+
+        .body_ru .try_it .final_price_no_desc {
+            margin: 4% 0
+        }
+
+        .body_ru .try_it .final_price_no_desc span {
+            font-size: 13px
+        }
+
+        .body_ru .try_it a.btn {
+            padding: 10px 20px;
+            font-size: 11px
+        }
+    }
+
+    @media (max-width:900px) {
+        .try_it .try_it_title {
+            font-size: 18px !important;
+            padding: 0 15px
+        }
+
+        .try_it .final_price_no_desc span,
+        .try_it .more_products {
+            font-size: 16px
+        }
+
+        .try_it .final_price_no_desc {
+            font-size: 16px;
+            margin: 4% 0
+        }
+
+        .try_it img {
+            height: 30px !important
+        }
+
+        .try_it a.btn {
+            padding: 12px 20px;
+            font-size: 13px
+        }
+    }
+
+    @media (min-width:1500px) {
+
+        .try_it .man_chaque img,
+        .try_it .man_frac img,
+        .try_it .man_levita img,
+        .try_it .man_smoking img,
+        .try_it .man_suit2 img,
+        .try_it .man_suit3 img {
+            padding: 13% 0 0
+        }
+    }
+
+    .social.title {
+        color: #333;
+        font-size: 10px !important;
+        text-transform: uppercase;
+        line-height: 15px;
+        letter-spacing: 1px;
+        margin-bottom: 5px
+    }
+
+    .share-footer:not(.mob_mode) {
+        text-align: center
+    }
+
+    .share-footer:not(.mob_mode) ul {
+        margin: 0;
+        padding: 10px 0 0;
+        text-align: center
+    }
+
+    .share-footer:not(.mob_mode) li {
+        display: inline-block;
+        margin-right: 15px
+    }
+
+    .share-footer:not(.mob_mode) a {
+        display: inline-block;
+        background: url(https://d2yo8p89bpsqlq.cloudfront.net/images/logos/footer/social/social_sprite_5.png) no-repeat;
+        height: 35px;
+        border-radius: 25px;
+        background-size: 468px
+    }
+
+    .share-footer:not(.mob_mode) a:hover {
+        opacity: .8
+    }
+
+    .share-footer:not(.mob_mode) a span {
+        display: none
+    }
+
+    .share-footer:not(.mob_mode) a.email {
+        background-position: -308px 0
+    }
+
+    .share-footer:not(.mob_mode) a.instagram {
+        background-position: -90px 0
+    }
+
+    .share-footer:not(.mob_mode) a.gplus {
+        background-position: -134px 0
+    }
+
+    .share-footer:not(.mob_mode) a.twitter {
+        background-position: -45px 0
+    }
+
+    .share-footer:not(.mob_mode) a.pinterest {
+        background-position: -178px 0
+    }
+
+    .share-footer:not(.mob_mode) a.facebook {
+        background-position: 0 0
+    }
+
+    .share-footer:not(.mob_mode) a.linkedin {
+        background-position: -311px 0
+    }
+
+    .share-footer:not(.mob_mode) a.whatsapp {
+        background-position: -353px 0
+    }
+
+    .share-footer:not(.mob_mode) a.sharen {
+        background-position: -388px 0;
+        background-color: #FF694C
+    }
+
+    .share-footer:not(.mob_mode) a.facebook_messenger {
+        background-position: -426px 0
+    }
+
+    .share-footer.mob_mode {
+        text-align: center;
+        padding: 10px 0 20px
+    }
+
+    .share-footer.mob_mode ul {
+        margin: 0;
+        padding: 10px 0 0;
+        text-align: center
+    }
+
+    .share-footer.mob_mode li {
+        display: inline-block;
+        margin-right: 10px
+    }
+
+    .share-footer.mob_mode a {
+        height: 48px;
+        width: 50px;
+        display: inline-block
+    }
+
+    .share-footer.mob_mode a span {
+        height: 100%;
+        width: 100%;
+        display: block
+    }
+
+    .share-footer.mob_mode a.email span {
+        background: url(https://d2yo8p89bpsqlq.cloudfront.net/images/logos/footer/social_svg/email.svg) center center no-repeat
+    }
+
+    .share-footer.mob_mode a.instagram span {
+        background: url(https://d2yo8p89bpsqlq.cloudfront.net/images/logos/footer/social_svg/instagram.svg) center center no-repeat
+    }
+
+    .share-footer.mob_mode a.gplus span {
+        background: url(https://d2yo8p89bpsqlq.cloudfront.net/images/logos/footer/social_svg/gplus.svg) center center no-repeat
+    }
+
+    .share-footer.mob_mode a.twitter span {
+        background: url(https://d2yo8p89bpsqlq.cloudfront.net/images/logos/footer/social_svg/twitter.svg) center center no-repeat
+    }
+
+    .share-footer.mob_mode a.pinterest {
+        background: url(https://d2yo8p89bpsqlq.cloudfront.net/images/logos/footer/social_svg/pinterest.svg) center center no-repeat
+    }
+
+    .share-footer.mob_mode a.facebook span {
+        background: url(https://d2yo8p89bpsqlq.cloudfront.net/images/logos/footer/social_svg/facebook.svg) center center no-repeat
+    }
+
+    .share-footer.mob_mode a.linkedin span {
+        background: url(https://d2yo8p89bpsqlq.cloudfront.net/images/logos/footer/social_svg/linkedin.svg) center center no-repeat
+    }
+
+    .share-footer.mob_mode a.whatsapp span {
+        background: url(https://d2yo8p89bpsqlq.cloudfront.net/images/logos/footer/social_svg/whatsapp.svg) center center no-repeat
+    }
+
+    .share-footer.mob_mode a.sharen span {
+        background: url(https://d2yo8p89bpsqlq.cloudfront.net/images/logos/footer/social_svg/sharen.svg) center center no-repeat
+    }
+
+    .share-footer.mob_mode a.facebook_messenger span {
+        background: url(https://d2yo8p89bpsqlq.cloudfront.net/images/logos/footer/social_svg/fb_messenger.svg) center center no-repeat
+    }
+
+    .woman .share-footer:not(.mob_mode) a {
+        background: url(https://d2yo8p89bpsqlq.cloudfront.net/images/woman_landings/social_sprite_5.png) no-repeat;
+        background-size: 431px
+    }
+
+    .woman .share-footer:not(.mob_mode) a.email {
+        background-position: -308px 0
+    }
+
+    .woman .share-footer:not(.mob_mode) a.instagram {
+        background-position: -90px 0
+    }
+
+    .woman .share-footer:not(.mob_mode) a.gplus {
+        background-position: -134px 0
+    }
+
+    .woman .share-footer:not(.mob_mode) a.twitter {
+        background-position: -45px 0
+    }
+
+    .woman .share-footer:not(.mob_mode) a.pinterest {
+        background-position: -179px 0
+    }
+
+    .woman .share-footer:not(.mob_mode) a.facebook {
+        background-position: 0 0
+    }
+
+    .woman .share-footer:not(.mob_mode) a.linkedin {
+        background-position: -311px 0
+    }
+
+    .woman .share-footer:not(.mob_mode) a.whatsapp {
+        background-position: -353px 0
+    }
+
+    .woman .share-footer:not(.mob_mode) a.sharen {
+        background-position: -394px 0;
+        background-color: #FF694C
+    }
+
+    #tv3 .main,
+    .main_block_product {
+        background: #fbfbfb
+    }
+
+    li.share_native {
+        display: none !important
+    }
+
+    li.share_native.visible {
+        display: inline-block !important
+    }
+
+    #tv3 .main {
+        -webkit-box-shadow: none;
+        box-shadow: none
+    }
+
+    div.body_box {
+        width: auto;
+        max-width: 1440px;
+        margin: 0 auto;
+        overflow: hidden
+    }
+
+    .man_pants_landing .col_left {
+        height: 100%
+    }
+
+    .man_pants_landing .slide_frame {
+        height: 100%;
+        position: relative;
+        width: 100%;
+        overflow: hidden
+    }
+
+    .man_pants_landing .col_left img {
+        bottom: 0;
+        position: absolute;
+        right: 0
+    }
+
+    .col_left {
+        height: 100%;
+        text-align: right
+    }
+
+    .col_left .bottom.slide_frame {
+        height: 100%;
+        position: relative;
+        width: 100%;
+        overflow: hidden
+    }
+
+    .col_left .bottom.slide_frame img {
+        bottom: 0;
+        position: absolute;
+        right: 0
+    }
+
+    .col_left .fit.slide_frame {
+        height: 100%;
+        position: relative;
+        width: 100%;
+        overflow: hidden
+    }
+
+    .col_left .fit.slide_frame img {
+        max-height: 100%
+    }
+
+    .two_cols {
+        float: left;
+        width: 45%
+    }
+
+    .col_left img {
+        max-width: 100%
+    }
+
+    .col_right {
+        text-align: center;
+        width: 50%;
+        height: 100%;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+
+    .main_block_product .body_box {
+        height: 870px
+    }
+
+    .main_block_product .body_box.bf_mode {
+        height: 970px
+    }
+
+    .image_promo {
+        margin-bottom: 20px
+    }
+
+    .main_block_product .title {
+        margin-bottom: 55px
+    }
+
+    .position_container {
+        bottom: 30px;
+        left: 0
+    }
+
+    .main_block_product h1 {
+        font-size: 70px;
+        font-size: 5.5vw;
+        font-weight: 300;
+        margin-bottom: 40px
+    }
+
+    .main_block_product h1 .subtitle.reduce1 {
+        font-size: 72%
+    }
+
+    .main_block_product h1 .subtitle.reduce2 {
+        font-size: 62%
+    }
+
+    .main_block_product h1 .subtitle.reduce3 {
+        font-size: 52%
+    }
+
+    .main_block_product h1 .subtitle.reduce4 {
+        font-size: 45%
+    }
+
+    .main_block_product .subtitle>* {
+        display: inline
+    }
+
+    .main_block_product .subtitle>br {
+        display: block
+    }
+
+    .main_block_product .subtitle .info_container>* {
+        display: inline-block;
+        vertical-align: middle
+    }
+
+    .main_block_product span.from {
+        font-size: 14px
+    }
+
+    .main_block_product .subtitle .info_container {
+        display: inline-block;
+        margin-bottom: 25px
+    }
+
+    .main_block_product .from.dsc {
+        vertical-align: bottom;
+        margin-bottom: 8px
+    }
+
+    .woman .main_block_product .from.dsc {
+        margin-bottom: 5px
+    }
+
+    .main_block_product .price {
+        font-size: 47px;
+        line-height: 40px;
+        font-weight: 300;
+        margin-right: 30px
+    }
+
+    .main_block_product .price.dsc {
+        text-decoration: line-through;
+        font-size: 38px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 3px;
+        color: #666
+    }
+
+    .main_block_product .price.new_p {
+        color: #B8513A;
+        margin-right: 20px;
+        font-weight: 400
+    }
+
+    .made_to_measure {
+        margin-bottom: 50px
+    }
+
+    .made_to_measure h2.custom_made {
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: 400;
+        color: #000
+    }
+
+    .made_to_measure p {
+        font-size: 17px;
+        color: #8c8c8c;
+        font-weight: 100
+    }
+
+    .main_block_product .reviews {
+        border-top: 1px solid #e5e5e5;
+        padding-top: 50px
+    }
+
+    .main_block_product .reviews h3 {
+        font-size: 25px;
+        color: #8c8c8c;
+        font-weight: 300;
+        margin-bottom: 30px
+    }
+
+    .main_block_product .hockerty_symbol {
+        width: 50px;
+        margin: 0 auto 20px
+    }
+
+    .main_block_feed .product_list_loader {
+        width: auto;
+        float: none;
+        padding: 0 20px;
+        overflow: auto
+    }
+
+    .main_block_feed .product_list {
+        margin-left: -2%;
+        min-width: 1300px
+    }
+
+    .main_block_product .button-red {
+        padding: 20px 80px
+    }
+
+    .body_ru .main_block_product .button-red {
+        margin: 10px
+    }
+
+    #body_height {
+        position: absolute;
+        left: 0;
+        right: 0;
+        transition: all .5s ease-in-out
+    }
+
+    #body_height.r360,
+    #fixed_banner.r360 {
+        right: 360px
+    }
+
+    #fixed_banner {
+        -webkit-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out
+    }
+
+    @media (min-width:1350px) {
+        .col_left img {
+            height: 1288px
+        }
+    }
+
+    @media (min-width:1200px) {
+        .main_block_product h1 {
+            font-size: 70px
+        }
+
+        .man_unlined_suit .col_left img {
+            height: 800px;
+            margin-top: 70px;
+            max-width: inherit;
+            margin-right: -75px
+        }
+    }
+
+    @media (max-width:1100px) {
+        .col_right {
+            width: 55%
+        }
+
+        .position_container {
+            padding-right: 40px
+        }
+    }
+
+    @media (max-width:1200px) {
+        .man_unlined_suit .col_left img {
+            height: 745px;
+            margin-top: 100px;
+            max-width: inherit
+        }
+    }
+
+    @media (max-width:1024px) {
+        .main_block_product .price {
+            font-size: 38px
+        }
+
+        .made_to_measure h2 {
+            font-size: 18px
+        }
+
+        .made_to_measure p {
+            font-size: 15px
+        }
+    }
+
+    @media (max-height:830px) and (min-width:1200px) {
+        .col_left img {
+            height: 1230px;
+            width: auto
+        }
+    }
+
+    @media (max-height:730px) and (min-width:1200px) {
+        .col_left img {
+            height: 980px;
+            width: auto
+        }
+    }
+
+    @media (max-width:1000px) {
+        .position_container {
+            bottom: 75px
+        }
+
+        .man_unlined_suit .position_container {
+            bottom: 30px
+        }
+
+        .man_unlined_suit .col_left img {
+            height: 545px;
+            margin-top: 135px;
+            max-width: inherit
+        }
+    }
+
+    @media (max-width:845px) {
+        .position_container {
+            bottom: 130px
+        }
+
+        .man_unlined_suit .position_container {
+            bottom: 65px
+        }
+
+        .main_block_product .title {
+            margin-bottom: 35px
+        }
+
+        .made_to_measure {
+            margin-bottom: 20px
+        }
+
+        .main_block_product .reviews {
+            border-top: 1px solid #e5e5e5;
+            padding-top: 20px
+        }
+    }
+
+    .main_block_how {
+        background: #f7f7f7;
+        text-align: center;
+        padding: 50px 0
+    }
+
+    .main_block_how h3 {
+        text-transform: none
+    }
+
+    .main_block_how .title {
+        margin-bottom: 20px;
+        padding: 0 20px
+    }
+
+    .main_block_how .title p {
+        color: #8c8c8c;
+        font-size: 18px;
+        font-weight: 300
+    }
+
+    .main_block_how .steps {
+        margin-bottom: 55px
+    }
+
+    .main_block_how .step {
+        display: inline-block;
+        width: 252px;
+        margin: 40px 100px 0;
+        vertical-align: top
+    }
+
+    .main_block_how .step p {
+        font-size: 17px;
+        font-weight: 300;
+        color: #8c8c8c
+    }
+
+    .main_block_how .step p.title_select_fabric {
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 15px;
+        color: #212121
+    }
+
+    .main_block_how .step p b {
+        font-weight: inherit
+    }
+
+    .main_block_how .step p.title_select_fabric b,
+    .main_block_how .step p.title_select_fabric strong {
+        font-weight: 700;
+        color: #000
+    }
+
+    .main_block_how p.title_how_it_works {
+        font-size: 37px;
+        color: #8c8c8c;
+        font-weight: 300;
+        text-transform: none;
+        margin-bottom: 15px
+    }
+
+    .main_block_about div.about h4.desc:first-letter,
+    .main_block_how .know_more,
+    .main_fixed_bar .top_title,
+    .post a.more-link {
+        text-transform: uppercase
+    }
+
+    .main_block_how .know_more {
+        color: #adadad;
+        display: inline-block;
+        margin-left: 40px
+    }
+
+    @media (max-width:1513px) {
+        .main_block_how .step {
+            width: 269px;
+            margin: 40px 25px 0
+        }
+    }
+
+    @media (max-width:1074px) {
+        .main_block_how .step {
+            width: 220px;
+            margin: 40px 15px 0
+        }
+    }
+
+    .main_block_feed {
+        padding: 60px 0;
+        background: #FFF
+    }
+
+    .main_block_feed h3.title {
+        text-align: center;
+        font-size: 40px;
+        color: #8c8c8c;
+        font-weight: 300;
+        margin-bottom: 30px
+    }
+
+    span.new {
+        background-color: #B8513A;
+        color: #fff;
+        padding: 5px;
+        font-size: 8px;
+        letter-spacing: 1px;
+        position: absolute;
+        bottom: 10px;
+        left: 10px
+    }
+
+    @media (max-width:1200px) {
+        .product_list.is_list .product {
+            width: 18%;
+            margin: 0 0 2% 2%
+        }
+    }
+
+    .main_block_reviews {
+        padding-top: 60px
+    }
+
+    .main_block_reviews *,
+    .main_block_reviews .more_reviews,
+    .main_block_reviews .title {
+        text-align: center
+    }
+
+    .main_block_reviews .title p {
+        font-size: 40px;
+        font-weight: 300;
+        color: #979797;
+        margin-bottom: 40px
+    }
+
+    .main_block_reviews .reviews {
+        overflow: hidden;
+        margin-bottom: 60px;
+        text-align: center
+    }
+
+    .main_block_reviews .review {
+        display: inline-block;
+        width: 160px;
+        margin-left: 70px;
+        vertical-align: top
+    }
+
+    .main_block_reviews .review .wrap_image {
+        border-radius: 100px;
+        max-height: 160px;
+        margin-bottom: 10px;
+        overflow: hidden
+    }
+
+    .main_block_reviews .review .wrap_image img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px
+    }
+
+    .main_block_reviews .review .title {
+        font-size: 13px;
+        letter-spacing: .5px;
+        font-weight: 400;
+        margin-bottom: 5px
+    }
+
+    .main_block_reviews .review .customer {
+        font-size: 13px;
+        color: #a4a4a4;
+        font-weight: 300
+    }
+
+    .main_block_reviews .powered_trust {
+        display: inline-block;
+        width: 160px;
+        margin-right: 60px
+    }
+
+    .main_block_reviews .landing_sprite.trust {
+        background-image: url(https://d2yo8p89bpsqlq.cloudfront.net/images/man_landings/desktop-sprite_v2.png);
+        margin: 0 auto;
+        width: 145px;
+        height: 33px;
+        background-size: 152px;
+        background-position: 0 -92px
+    }
+
+    .main_block_reviews .more_reviews .cta {
+        vertical-align: bottom
+    }
+
+    .main_block_reviews .more_reviews a {
+        display: inline;
+        position: relative;
+        top: 21px
+    }
+
+    .main_block_reviews .review_prop_hide {
+        display: none
+    }
+
+    .main_block_reviews .review.r_0 {
+        margin-left: 0
+    }
+
+    .main_block_reviews .t4l-stars {
+        margin-top: 10px
+    }
+
+    .main_block_reviews .t4l-stars .t4l-star {
+        background-color: #007F4E;
+        line-height: 14px;
+        padding: 3px;
+        display: inline-block;
+        float: none
+    }
+
+    .main_block_reviews .t4l-stars img {
+        vertical-align: top
+    }
+
+    @media (max-width:1872px) {
+        .main_block_reviews .review.r_7 {
+            display: none
+        }
+    }
+
+    @media (max-width:1639px) {
+        .main_block_reviews .review.r_6 {
+            display: none
+        }
+    }
+
+    @media (max-width:1440px) {
+        .main_block_reviews .review.r_5 {
+            display: none
+        }
+    }
+
+    @media (max-width:1266px) {
+        .main_block_reviews .review.r_4 {
+            display: none
+        }
+    }
+
+    @media (max-width:996px) {
+        .main_block_reviews .review.r_3 {
+            display: none
+        }
+    }
+
+    @media (max-width:750px) {
+        .main_block_reviews .review.r_3 {
+            display: inline-block
+        }
+
+        .main_block_reviews .review {
+            margin: 0 5% 30px 20px;
+            width: 130px
+        }
+
+        .main_block_reviews .title h4 {
+            margin-bottom: 0;
+            font-size: 30px;
+            padding: 0 15px
+        }
+
+        .main_block_reviews .reviews {
+            margin-bottom: 20px
+        }
+
+        .main_block_reviews .powered_trust {
+            margin: 0 20px 20px 0;
+            font-size: 11px
+        }
+
+        .main_block_reviews .cta {
+            background: #b7513a;
+            text-transform: uppercase;
+            font-weight: 300;
+            color: #FFF;
+            text-align: center;
+            display: inline-block;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none
+        }
+
+        .main_block_reviews .cta:hover {
+            text-decoration: none
+        }
+
+        .main_block_reviews .cta_white {
+            background: 0 0;
+            border: 2px solid #adadad;
+            color: #adadad
+        }
+
+        .main_block_reviews .more_reviews .cta {
+            margin-bottom: 20px
+        }
+
+        .main_block_reviews .review .wrap_image {
+            max-height: 130px
+        }
+    }
+
+    @media (max-width:600px) {
+        .main_block_reviews .title p {
+            font-size: 30px
+        }
+    }
+
+    @media (orientation:landscape) and (max-width:640px) {
+        .main_block_reviews .review {
+            margin-left: 0
+        }
+
+        .main_block_reviews .review.r_3 {
+            display: none
+        }
+    }
+
+    @media (max-width:440px) {
+        .main_block_reviews .more_reviews a {
+            display: inline-block
+        }
+    }
+
+    .main_block_about div.about {
+        text-align: center;
+        max-width: 1440px;
+        margin: 120px auto 150px
+    }
+
+    .main_block_about .ab-top {
+        margin: 120px auto 0 !important
+    }
+
+    .main_block_about .ab-mid {
+        margin: 60px auto !important
+    }
+
+    .main_block_about .ab-bottom {
+        margin: 0 auto 150px !important
+    }
+
+    .main_block_about div.about h1.title,
+    .main_block_about div.about h2.title,
+    .main_block_about div.about h4.title,
+    .main_block_about div.about h5.title {
+        font-size: 36px;
+        font-weight: 300;
+        margin: 0 0 15px;
+        color: #a4a4a4
+    }
+
+    @media (max-width:800px) {
+
+        .main_block_about div.about h1.title,
+        .main_block_about div.about h2.title,
+        .main_block_about div.about h4.title,
+        .main_block_about div.about h5.title {
+            font-size: 28px
+        }
+    }
+
+    .main_block_about div.about p.desc {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 60px;
+        font-size: 19px;
+        font-weight: 300;
+        color: #a4a4a4
+    }
+
+    @media (max-width:800px) {
+        .main_block_about div.about p.desc {
+            padding: 0 20px
+        }
+    }
+
+    .main_block_about div.about h4.desc strong {
+        font-weight: 700
+    }
+
+    .main_block_about div.about img {
+        width: 60px;
+        margin-bottom: 30px
+    }
+
+    @media (max-width:1200px) {
+        .main_block_about div.about {
+            margin: 80px auto 90px
+        }
+    }
+
+    @media (max-width:900px) {
+        .main_block_about div.about h4.desc {
+            padding: 0 20px
+        }
+    }
+
+    .main_block_about.swiss_site .about {
+        background: url(https://d2yo8p89bpsqlq.cloudfront.net/images/landing/grey_mountains.png) center center no-repeat
+    }
+
+    .main_block_mentioned {
+        border-top: 1px solid #e5e5e5;
+        text-align: center;
+        padding: 60px 0 70px
+    }
+
+    .main_block_mentioned .mentioned.logos .eawards {
+        display: none
+    }
+
+    .main_block_mentioned p.title_mentioned {
+        font-size: 18px;
+        color: #8c8c8c;
+        font-weight: 300;
+        text-transform: uppercase
+    }
+
+    .main_block_mentioned .mentioned.logos div {
+        background-image: url(https://d2yo8p89bpsqlq.cloudfront.net/images/man_landings/logos_mentioned_trans.png);
+        width: 133px;
+        display: inline-block;
+        background-size: 176px;
+        height: 45px;
+        margin: 35px 10px 0
+    }
+
+    .main_block_mentioned .mentioned.logos .esquire {
+        background-position: 0 0;
+        width: 132px
+    }
+
+    .main_block_mentioned .mentioned.logos .eawards {
+        background-position: 7px -66px;
+        width: 132px
+    }
+
+    .main_block_mentioned .mentioned.logos .forbes {
+        background-position: 0 -126px;
+        width: 110px
+    }
+
+    .main_block_mentioned .mentioned.logos .msp {
+        background-position: 0 -190px;
+        width: 90px
+    }
+
+    .main_block_mentioned .mentioned.logos .homme_tendance {
+        background-position: 0 -263px;
+        width: 111px
+    }
+
+    .main_block_mentioned .mentioned.logos .dailymail {
+        background-position: 0 -414px;
+        width: 185px
+    }
+
+    .main_block_mentioned .mentioned.logos .mirror {
+        background-position: 0 -320px;
+        width: 130px
+    }
+
+    .main_block_mentioned .mentioned.logos .abc {
+        background-position: 0 -362px;
+        width: 108px
+    }
+
+    .main_block_mentioned .mentioned.logos .comme_une_camion {
+        background-position: 0 -462px;
+        width: 150px
+    }
+
+    .main_block_mentioned .mentioned.logos .hola {
+        background-position: 0 -510px;
+        width: 130px;
+        height: 50px
+    }
+
+    .main_block_mentioned .mentioned.logos .elmundo {
+        background-position: 0 -560px;
+        width: 177px;
+        height: 30px
+    }
+
+    .main_block_mentioned .mentioned.logos .expansion {
+        background-position: 0 -591px;
+        width: 170px
+    }
+
+    .main_block_mentioned .mentioned.logos .elpais {
+        background-position: 0 -687px;
+        width: 170px
+    }
+
+    .main_block_mentioned .mentioned.logos .digg {
+        background-position: 0 -645px;
+        width: 80px
+    }
+
+    .main_block_mentioned .mentioned.logos .vintagebruche {
+        background-position: 0 -735px;
+        width: 176px
+    }
+
+    .main_block_mentioned .mentioned.logos .mariage {
+        background-position: 0 -785px;
+        width: 176px
+    }
+
+    @media (max-width:840px) {
+        .main_block_mentioned .mentioned.logos div {
+            margin: 35px 0 0
+        }
+    }
+
+    .body_es .main_block_mentioned .mentioned.logos div {
+        height: 40px;
+        margin: 10px 10px 0
+    }
+
+    .main_block_mentioned_small {
+        padding: 30px 0
+    }
+
+    .main_block_mentioned_small .mentioned.logos div {
+        margin-top: 15px
+    }
+
+    @media (max-width:1000px) {
+        .main_block_mentioned {
+            padding-bottom: 20px
+        }
+
+        .has_extra_button .main_block_mentioned {
+            padding-top: 20px
+        }
+
+        .has_extra_button .main_block_mentioned .mentioned.logos div {
+            margin-top: 15px
+        }
+    }
+
+    .main_block.main_fixed_bar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #fff;
+        z-index: 10;
+        -webkit-box-shadow: 0 -8px 25px -9px rgba(0, 0, 0, .25);
+        box-shadow: 0 -8px 25px -9px rgba(0, 0, 0, .25);
+        display: none;
+        padding: 14px 0 12px
+    }
+
+    #tv3.man_shoe_landing .main,
+    #tv3.man_sneaker_landing .main,
+    .man_shoe_landing .main_block_product,
+    .man_sneaker_landing .main_block_product,
+    .woman_shoe_landing .main_block_product {
+        background-color: #f6f6f6
+    }
+
+    .man_shoe_landing .landing_sprite,
+    .man_sneaker_landing .landing_sprite,
+    .woman_shoe_landing .landing_sprite {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center top
+    }
+
+    .main_block.main_fixed_bar.cookies_warning {
+        bottom: 100px
+    }
+
+    .main_block.main_fixed_bar .logo {
+        display: inline-block;
+        float: left;
+        line-height: 42px
+    }
+
+    .swiss_site .main_block.main_fixed_bar .logo {
+        line-height: 46px
+    }
+
+    .main_fixed_bar .product {
+        float: right
+    }
+
+    .main_fixed_bar .product>* {
+        display: inline-block;
+        vertical-align: middle
+    }
+
+    .main_fixed_bar .product .product_info>* {
+        display: inline-block
+    }
+
+    .main_fixed_bar .product_info {
+        margin-right: 75px
+    }
+
+    .main_fixed_bar .top_title {
+        font-size: 24px;
+        font-weight: 300;
+        margin: 0
+    }
+
+    .main_fixed_bar .product .price {
+        font-size: 18px;
+        color: #333;
+        vertical-align: bottom;
+        padding: 0 10px 3px
+    }
+
+    .main_fixed_bar .close {
+        position: absolute;
+        top: 18px;
+        right: 20px;
+        font-family: nc-nav;
+        cursor: pointer;
+        font-size: 30px;
+        color: #000
+    }
+
+    @media (max-width:1600px) {
+        .main_fixed_bar .product {
+            margin-right: 85px
+        }
+    }
+
+    @media (max-width:1440px) {
+        .main_block.main_fixed_bar .logo {
+            margin-left: 15px
+        }
+    }
+
+    @media (max-width:1300px) {
+        .main_fixed_bar .top_title {
+            font-size: 18px
+        }
+
+        .main_fixed_bar .product .price {
+            font-size: 16px;
+            vertical-align: bottom
+        }
+    }
+
+    .posts_title {
+        text-align: center;
+        margin-top: 60px
+    }
+
+    .posts_title p {
+        font-size: 40px;
+        font-weight: 300;
+        color: #979797;
+        margin-bottom: 20px
+    }
+
+    .post {
+        padding: 0 10%;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: auto;
+        max-width: 1200px;
+        margin: 40px auto 60px;
+        overflow: hidden
+    }
+
+    .post .entry-header {
+        margin-bottom: 10px
+    }
+
+    .post .entry-title {
+        font-size: 20px;
+        color: #000;
+        margin-bottom: 5px;
+        font-weight: 700
+    }
+
+    .post .entry-title a {
+        color: #000;
+        text-decoration: none;
+        font-weight: lighter
+    }
+
+    .post .entry-content {
+        overflow: hidden;
+        font-size: 15px;
+        line-height: 28px;
+        font-weight: 400;
+        color: #333
+    }
+
+    .post .post-thumb {
+        float: left;
+        margin: 0 40px 20px 0;
+        display: block;
+        width: 300px;
+        max-width: 45%;
+        max-height: 280px;
+        overflow: hidden
+    }
+
+    .post .entry-content img {
+        max-width: 100%;
+        height: auto
+    }
+
+    .post .entry-content p {
+        margin-bottom: 20px;
+        color: #777;
+        line-height: 20px;
+        font-size: 14px;
+        font-weight: lighter
+    }
+
+    .post a.more-link {
+        display: table;
+        border: 2px solid #adadad;
+        color: #adadad;
+        padding: 11px 20px;
+        border-radius: 30px;
+        font-size: 12px;
+        font-weight: 300;
+        -webkit-transition: background .2s ease-in;
+        transition: background .2s ease-in
+    }
+
+    body.tiny_landing,
+    div.main_footer {
+        max-width: 900px;
+        margin: 0 auto 150px;
+        padding: 0 60px;
+        font-size: 18px;
+        font-weight: 300;
+        color: #a4a4a4;
+        text-align: center
+    }
+
+    body.tiny_landing h3,
+    div.main_footer h3 {
+        font-size: 26px;
+        margin: 12px 0 25px;
+        font-weight: 400
+    }
+
+    body.tiny_landing h4,
+    div.main_footer h4 {
+        font-size: 24px;
+        margin: 9px 0 20px;
+        font-weight: 400
+    }
+
+    body.tiny_landing h5,
+    div.main_footer h5 {
+        font-size: 22px;
+        margin: 6px 0 15px;
+        font-weight: 400
+    }
+
+    body.tiny_landing h6,
+    div.main_footer h6 {
+        font-size: 20px;
+        margin: 3px 0 10px;
+        font-weight: 400
+    }
+
+    body.tiny_landing p,
+    div.main_footer p {
+        margin: 20px 0
+    }
+
+    body.tiny_landing blockquote,
+    div.main_footer blockquote {
+        margin: 40px 0 40px 5px;
+        padding-left: 15px;
+        border-left: 1px solid #CCC
+    }
+
+    body.tiny_landing ol,
+    body.tiny_landing ul,
+    div.main_footer ol,
+    div.main_footer ul {
+        margin: 20px 0;
+        list-style: inside
+    }
+
+    body.tiny_landing ol,
+    div.main_footer ol {
+        list-style-type: decimal
+    }
+
+    body.tiny_landing ul,
+    div.main_footer ul {
+        list-style-type: square
+    }
+
+    body.tiny_landing li,
+    div.main_footer li {
+        margin: 10px 0
+    }
+
+    .share-footer:not(.mob_mode) {
+        display: inline-block;
+        padding: 0
+    }
+
+    #fixed_banner .body_box,
+    .socialBlock {
+        display: -webkit-box;
+        display: -ms-flexbox
+    }
+
+    .share-footer:not(.mob_mode) a {
+        width: 34px
+    }
+
+    .share-footer .entry-icons ul {
+        padding: 0;
+        text-align: right
+    }
+
+    .socialBlock {
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+
+    .socialBlock>span {
+        font-size: 15px;
+        margin-right: .7em
+    }
+
+    #fixed_banner .body_box {
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+
+    .man_shoe_landing picture,
+    .man_sneaker_landing picture,
+    .woman_shoe_landing picture {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+
+    .man_shoe_landing picture img,
+    .man_sneaker_landing picture img,
+    .woman_shoe_landing picture img {
+        height: auto;
+        width: 100%
+    }
+
+    .man_shoe_landing .col_right,
+    .man_sneaker_landing .col_right,
+    .woman_shoe_landing .col_right {
+        width: 35%
+    }
+
+    .man_shoe_landing .col_left,
+    .man_sneaker_landing .col_left,
+    .woman_shoe_landing .col_left {
+        width: 50%;
+        margin: 0 5%
+    }
+
+    .man_shoe_landing .main_block_config.video,
+    .man_sneaker_landing .main_block_config.video,
+    .woman_shoe_landing .main_block_config.video {
+        max-height: 70vh;
+        overflow: hidden
+    }
+
+    .man_shoe_landing .main_block_config.clickbox #main_block_config_images picture,
+    .man_sneaker_landing .main_block_config.clickbox #main_block_config_images picture,
+    .woman_shoe_landing .main_block_config.clickbox #main_block_config_images picture {
+        height: auto
+    }
+
+    .man_shoe_landing .main_block_mentioned,
+    .man_sneaker_landing .main_block_mentioned,
+    .woman_shoe_landing .main_block_mentioned {
+        border-top: 1px solid #ccc
+    }
+
+    .man_shoe_landing .landing_sprite.fabrics,
+    .man_sneaker_landing .landing_sprite.fabrics,
+    .woman_shoe_landing .landing_sprite.fabrics {
+        width: 85px;
+        background-image: url(https://d2yo8p89bpsqlq.cloudfront.net/images/man_landings/shoe/piel.svg)
+    }
+
+    .man_shoe_landing .landing_sprite.shirt,
+    .man_sneaker_landing .landing_sprite.shirt,
+    .woman_shoe_landing .landing_sprite.shirt {
+        width: 155px;
+        background-image: url(https://d2yo8p89bpsqlq.cloudfront.net/images/man_landings/shoe/zapatos.svg)
+    }
+
+    .man_shoe_landing .landing_sprite.measure,
+    .man_sneaker_landing .landing_sprite.measure,
+    .woman_shoe_landing .landing_sprite.measure {
+        width: 100px;
+        background-image: url(https://d2yo8p89bpsqlq.cloudfront.net/images/man_landings/shoe/camion.svg)
+    }
+
+    .man_shoe_landing .main_block_video,
+    .man_sneaker_landing .main_block_video,
+    .woman_shoe_landing .main_block_video {
+        position: relative;
+        height: 70vw;
+        max-height: 85vh;
+        min-height: 300px;
+        padding: 0;
+        overflow: hidden;
+        margin-top: 50px
+    }
+
+    .man_shoe_landing .main_block_video .body_box,
+    .man_sneaker_landing .main_block_video .body_box,
+    .woman_shoe_landing .main_block_video .body_box {
+        text-align: center;
+        z-index: 1
+    }
+
+    .man_shoe_landing .main_block_video .body_box .title p.title_video,
+    .man_sneaker_landing .main_block_video .body_box .title p.title_video,
+    .woman_shoe_landing .main_block_video .body_box .title p.title_video {
+        font-size: 37px;
+        color: #8c8c8c;
+        font-weight: 300;
+        text-transform: none;
+        margin-bottom: 30px
+    }
+
+    .breadcrumbs .disabled:hover,
+    .breadcrumbs a,
+    .breadcrumbs a:hover,
+    .breadcrumbs span,
+    .breadcrumbs span.bar {
+        color: #9E9E9E
+    }
+
+    .man_shoe_landing .main_block_video video,
+    .man_sneaker_landing .main_block_video video,
+    .woman_shoe_landing .main_block_video video {
+        min-width: 100%;
+        min-height: 100%
+    }
+
+    .man_sneaker_landing .landing_sprite.fabrics {
+        width: 140px;
+        background-image: url(https://d2yo8p89bpsqlq.cloudfront.net/images/man_landings/sneaker/icon_palette.png)
+    }
+
+    .man_sneaker_landing .landing_sprite.shirt {
+        width: 138px;
+        background-image: url(https://d2yo8p89bpsqlq.cloudfront.net/images/man_landings/sneaker/icon_model.png)
+    }
+
+    .man_sneaker_landing .landing_sprite.measure {
+        width: 159px;
+        background-image: url(https://d2yo8p89bpsqlq.cloudfront.net/images/man_landings/sneaker/icon_perso.png)
+    }
+
+    .woman_shoe_landing .landing_sprite.fabrics {
+        width: 85px;
+        background-image: url(https://d2yo8p89bpsqlq.cloudfront.net/images/woman_landings/shoe/piel.svg) !important
+    }
+
+    .woman_shoe_landing .landing_sprite.shirt {
+        width: 155px;
+        background-image: url(https://d2yo8p89bpsqlq.cloudfront.net/images/woman_landings/shoe/zapatos.svg) !important;
+        background-position: unset !important
+    }
+
+    .woman_shoe_landing .landing_sprite.measure {
+        width: 100px;
+        background-image: url(https://d2yo8p89bpsqlq.cloudfront.net/images/woman_landings/shoe/camion.svg) !important
+    }
+
+    @media (max-width:1100px) {
+
+        .man_shoe_landing .position_container,
+        .man_sneaker_landing .position_container,
+        .woman_shoe_landing .position_container {
+            padding-right: 0
+        }
+
+        .man_shoe_landing .col_left,
+        .man_sneaker_landing .col_left,
+        .woman_shoe_landing .col_left {
+            width: 45%;
+            margin: 0 5%
+        }
+
+        .man_shoe_landing .col_right,
+        .man_sneaker_landing .col_right,
+        .woman_shoe_landing .col_right {
+            width: 42%
+        }
+    }
+
+    @media (max-width:900px) {
+
+        .man_shoe_landingg .position_container,
+        .man_sneaker_landing .position_container,
+        .woman_shoe_landing .position_container {
+            bottom: 100px
+        }
+    }
+
+    .breadcrumbs {
+        padding: 0 0 5px;
+        margin-bottom: 120px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-align: center
+    }
+
+    .breadcrumbs.view {
+        border: none;
+        margin-bottom: 25px
+    }
+
+    .breadcrumbs a {
+        font-size: 10px;
+        cursor: pointer
+    }
+
+    .breadcrumbs a:hover {
+        text-decoration: none
+    }
+
+    .breadcrumbs .disabled {
+        color: #9E9E9E;
+        text-decoration: none
+    }
+
+    span.from {
+        font-size: .8em
+    }
+
+    .try_it a.btn:hover {
+        border-color: #D81E6D;
+        background-color: #D81E6D;
+        color: #FFF;
+        text-decoration: none;
+        outline: 0
+    }
+
+    .btn-radiused {
+        border-radius: 60px;
+        margin: 5px;
+        font-size: 14px;
+        font-weight: lighter
+    }
+
+    .btn-radiused.little {
+        padding: 10px 20px;
+        font-size: 12px;
+        font-weight: 400
+    }
+
+    .subtitle .price span,
+    .top_title * {
+        font-weight: lighter
+    }
+
+    .top_title span,
+    .top_title strong {
+        font-weight: 700
+    }
+
+    .main_block_product .subtitle>.btn-radiused {
+        display: inline-block
+    }
+
+    .landing_sprite {
+        background-image: url(https://d2yo8p89bpsqlq.cloudfront.net/images/woman/desktop-sprite_v2.png) !important
+    }
+
+    .landing_sprite.jeans_mobile {
+        background-image: url(https://d2yo8p89bpsqlq.cloudfront.net/images/man_landings/jeans_icons.svg)
+    }
+
+    .landing_sprite.shirt {
+        background-position: 0 -157px !important;
+        width: 116px
+    }
+
+    .main_block_about .desc {
+        text-transform: initial
+    }
+
+    .main_block_how .know_more {
+        font-size: .7em
+    }
+
+    .main_block_how .know_more:hover {
+        color: #adadad
+    }
+
+    .main_block_mentioned .mentioned.logos div {
+        background: url(https://d2yo8p89bpsqlq.cloudfront.net/images/woman/logos_mentioned.png) no-repeat;
+        background-size: auto
+    }
+
+    .main_block_mentioned .mentioned.logos .dailymail {
+        background-position: 0 0
+    }
+
+    .main_block_mentioned .mentioned.logos .huffingtonpost {
+        background-position: 0 -30px;
+        width: 145px
+    }
+
+    .main_block_mentioned .mentioned.logos .buzzfeed {
+        background-position: 0 -70px
+    }
+
+    .main_block_mentioned .mentioned.logos .mujerhoy {
+        background-position: 0 -110px;
+        width: 142px
+    }
+
+    .main_block_mentioned .mentioned.logos .weloversize {
+        background-position: 0 -150px
+    }
+
+    .main_block_mentioned .mentioned.logos .hola {
+        background-position: 0 -344px
+    }
+
+    .main_block_mentioned .mentioned.logos .express {
+        background-position: 0 -190px;
+        width: 100px
+    }
+
+    .main_block_mentioned .mentioned.logos .elle {
+        background-position: 0 -230px;
+        width: 80px
+    }
+
+    .main_block_mentioned .mentioned.logos .cnbc {
+        background-position: 0 -302px;
+        width: 128px
+    }
+
+    .main_block_mentioned .mentioned.logos .lefigaro {
+        background-position: 0 -270px;
+        width: 100px
+    }
+
+    .main_block_mentioned .mentioned.logos .marie_claire {
+        background-position: 0 -401px;
+        width: 126px;
+        height: 48px
+    }
+
+    .col_left img {
+        max-height: 1288px
+    }
+
+    .woman .main_block_product .btn-radiused span {
+        font-family: "Fira Sans";
+        font-weight: 400;
+        font-size: 14px
+    }
+
+    .woman .main_block_product .btn-radiused {
+        padding: 17px 45px
+    }
+
+    .main_fixed_bar .product .btn-radiused {
+        margin: 0
+    }
+
+    .main_fixed_bar .product .btn-radiused span {
+        font-size: 14px
+    }
+
+    @media (max-width:900px) {
+        .woman .main_block_mentioned {
+            padding-bottom: 0
+        }
+
+        .woman .main_block_mentioned .mentioned.logos div {
+            margin-top: 15px
+        }
+    }

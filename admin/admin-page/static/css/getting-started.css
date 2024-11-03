@@ -1,0 +1,170 @@
+/*
+* @Author: 大胡子
+* @Email:  dq@dqtheme.com
+* @Link:   www.dq.me
+* @Date:   2021-01-03 13:13:53
+* @Last Modified by:   dq
+* @Last Modified time: 2021-01-30 00:14:19
+*/
+
+
+/** --------------------------------------------------------------------------------- *
+ *  页面样式
+ *  --------------------------------------------------------------------------------- */
+a{text-decoration:none}
+a:focus, a:focus .media-icon img{box-shadow:none}
+
+.dq-blocks-settings-page *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.dq-blocks-settings-page.wrap{background-color:#fff;margin:0;overflow:hidden}
+
+#wpcontent{padding-left:0 !important}
+#wpbody-content{padding-bottom:40px}
+
+
+/** --------------------------------------------------------------------------------- *
+ *  头部样式
+ *  --------------------------------------------------------------------------------- */
+.dq-blocks-settings-page .intro-wrap{background-color:#06c;background-image:linear-gradient(90deg,#06c 0,#4eb0d3 100%);padding:40px 0 0 0}
+.dq-blocks-settings-page .intro{box-sizing:border-box;display:flex;padding:0 4% 40px 4%;vertical-align:top;width:100%;align-items:center}
+.dq-blocks-settings-page .intro h1,.dq-blocks-settings-page .intro h3{color:#fff;display:inline-block;font-weight:500;font-size:24px;line-height:1.5;margin:0;padding-top:2px}
+.grow{flex-grow:1}
+
+
+/** --------------------------------------------------------------------------------- *
+ *  TAB切换
+ *  --------------------------------------------------------------------------------- */
+.dq-blocks-settings-page .inline-list{display:inline-block;width:100%;margin:0;padding:0 50px}
+.dq-blocks-settings-page .inline-list li{display:inline-block;margin:0}
+.dq-blocks-settings-page .inline-list li:last-child{margin-right:0;padding-right:0}
+.dq-blocks-settings-page .inline-list li a{font-size:18px;text-decoration:none;padding:25px 30px;display:inline-block;color:#fff}
+.dq-blocks-settings-page .inline-list li a::-moz-focus-inner,.dq-blocks-settings-page .inline-list li a:active,.dq-blocks-settings-page ul.inline-list a:focus{outline:0;border:0;box-shadow:none}
+.dq-blocks-settings-page .inline-list svg{position:absolute;fill:currentColor}
+.dq-blocks-settings-page .inline-list svg+span{padding-left:24px;vertical-align:middle}
+.dq-blocks-settings-page ul.toc{padding-left:5%}
+.dq-blocks-settings-page .toc li{list-style-type:none}
+.dq-blocks-settings-page .inline-list li.current a{background:#fff;outline:0;border:none;box-shadow:none;border-top-right-radius:3px;border-top-left-radius:3px;color:#0067cc}
+.dq-blocks-settings-page .inline-list li a i{font-size:16px;margin-right:5px}
+.dq-blocks-settings-page .panel-left.visible{display:inline-block;animation:smoothFade .3s;-moz-animation:smoothFade .3s;-webkit-animation:smoothFade .3s;-o-animation:smoothFade .3s}
+.dq-blocks-settings-page .panel-left{display:none}
+
+
+/** --------------------------------------------------------------------------------- *
+ *  按钮和链接
+ *  --------------------------------------------------------------------------------- */
+.dq-blocks-settings-page .components-button{border-radius:3px;border-width:0;font-size:14px;height:auto;padding:10px 15px;text-shadow:none;transition:all .25s ease-in-out;margin-top:10px;display:inline-block;min-width:120px}
+
+.dq-blocks-settings-page a{color:#06c}
+.dq-blocks-settings-page a:active,.dq-blocks-settings-page a:focus,.dq-blocks-settings-page a:hover{color:#06c;text-decoration:none}
+
+.dq-blocks-settings-page.wrap .components-button.is-primary:disabled,.dq-blocks-settings-page.wrap .components-button.is-primary[aria-disabled=true],.dq-blocks-settings-page.wrap .components-button.is-primary[aria-disabled=true]:focus,.dq-blocks-settings-page.wrap .components-button.is-primary[aria-disabled=true]:hover{background-color:#eee;border-color:#ddd;box-shadow:inset 0 0 0 1px #ddd;color:#a1afbd}
+.dq-blocks-settings-page.wrap .components-button.is-primary.is-busy,.dq-blocks-settings-page.wrap .components-button.is-primary.is-busy:disabled,.dq-blocks-settings-page.wrap .components-button.is-primary.is-busy[aria-disabled=true]{background-image:linear-gradient(-45deg,#23282d 28%,#39414a 0,#39414a 72%,#23282d 0);background-size:100px 100%;border-color:#ddd;box-shadow:inset 0 0 0 1px #a1afbd;color:#a1afbd}
+
+.dq-blocks-settings-page.wrap .components-button.is-primary:not(:disabled){background-color:#06c;box-shadow:none;color:#fff}
+.dq-blocks-settings-page.wrap .components-button.is-primary:active:not(:disabled),.dq-blocks-settings-page.wrap .components-button.is-primary:focus:not(:disabled),.dq-blocks-settings-page.wrap .components-button.is-primary:hover:not(:disabled):not([aria-disabled=true]){background-color:#23282d;box-shadow:0 1px 15px 0 rgba(0,0,0,.12)}
+.components-button.review-button{background:#fff;color:#333}
+.components-button.review-button:hover{background:#fff;color:#06c}
+
+
+/** --------------------------------------------------------------------------------- *
+ *  TAB
+ *  --------------------------------------------------------------------------------- */
+.dq-blocks-settings-sections .components-tab-panel__tab-content{background-color:#fff;box-sizing:border-box;display:inline-block;font-size:16px;padding:4%;transition:all .25s ease-in-out;width:100%}
+.dq-blocks-settings-sections .components-tab-panel__tab-content hr{border-width:0;border-top:2px solid #e6eaed;height:1px;margin:2em 0}
+.dq-blocks-settings-sections .components-tab-panel__tab-content p{font-size:15px;line-height:1.7;letter-spacing:.5px}
+.dq-blocks-settings-sections h2{font-size:24px}
+
+
+/** --------------------------------------------------------------------------------- *
+ *  网格
+ *  --------------------------------------------------------------------------------- */
+.dq-blocks-grid-2{display:grid;grid-template-rows:1fr;grid-template-columns:1fr 1fr;grid-template-areas:"col1 col2";grid-gap:0 2em}
+.dq-blocks-grid-3{display:grid;grid-template-rows:1fr;grid-template-columns:1fr 1fr 1fr;grid-template-areas:"col1 col2 col3";grid-gap:0 2em}
+
+
+/** --------------------------------------------------------------------------------- *
+ *  入门介绍
+ *  --------------------------------------------------------------------------------- */
+.dq-gs-intro{align-items:center;grid-gap:0 5em;padding:5%;background:#eceff1;border-radius:10px}
+.dq-gs-intro-tag{font-size:14px;background:#06c;border-radius:50px;color:#fff;padding:5px 10px;margin-bottom:15px;display:inline-block}
+.dq-gs-intro h2{font-size:24px;line-height:1.3;margin:0;color:#333}
+.dq-gs-intro-text p:last-child{margin-bottom:0}
+.dq-gs-resource{background:#eceff1;padding:50px 30px;border-radius:10px;text-align:center;margin-top:2em}
+.dq-gs-resource h3{margin-top:0}
+.dq-gs-resource img,.dq-gs-resource svg{max-width:50px;margin-bottom:25px}
+
+
+/** --------------------------------------------------------------------------------- *
+ *  主题帮助文档
+ *  --------------------------------------------------------------------------------- */
+#theme-help.panel-left{width:70%}
+#dq-blocks-panel.visible+.panel-left+.panel-left+.panel-right{display:none!important}
+#theme-help p{font-size:16px;line-height:1.5;margin:1.5em 0}
+#theme-help p:first-child{margin-top:0}
+#theme-help ol,#theme-help ul{margin:0 0 5% 0;background:#f5f4f6;padding:3% 3% 3% 6%;list-style-type:square;font-size:16px;line-height:1.5}
+#theme-help ol li,#theme-help ul li{border-bottom:dotted 1px #ccc;margin-bottom:20px;padding-bottom:20px;color:#0067cc}
+#theme-help a,#theme-help a:active,#theme-help a:hover{color:#0067cc}
+#theme-help ol li:last-child,#theme-help ul li:last-child{border:none;margin-bottom:0;padding-bottom:0}
+
+
+/** --------------------------------------------------------------------------------- *
+ *  主题更新日志
+ *  --------------------------------------------------------------------------------- */
+#theme-upgrade.panel-left{width:70%}
+#theme-upgrade ol li,#theme-upgrade ul li{border-bottom:dotted 1px #ccc;margin-bottom:20px;padding-bottom:20px;color:#333}
+#theme-upgrade a,#theme-upgrade a:active,#theme-upgrade a:hover{color:#333}
+#theme-upgrade ol li:last-child,#theme-upgrade ul li:last-child{border:none;margin-bottom:0;padding-bottom:0}
+.dq-blocks-settings-sections #theme-upgrade>span{margin-bottom:30px;display:inline-block;font-size:22px;letter-spacing:.5px;color:#333!important}
+#theme-upgrade ul,#theme-upgrade ol{margin:3% 0 8% 0;background:#f5f4f6;padding:3% 3% 3% 6%;list-style-type:decimal;font-size:16px;line-height:1.5}
+#theme-upgrade ul li{font-size:15px}
+#theme-upgrade strong em{background:#0078fe;margin-right:10px;color:#fff;border-radius:4px;font-size:12px;padding:3px 7px;font-style:normal;font-weight:400}
+
+/** --------------------------------------------------------------------------------- *
+ *  右侧栏
+ *  --------------------------------------------------------------------------------- */
+ .panel-right{display:inline-block;width:25%;float:right;vertical-align:top}
+.panel-right .panel-aside{margin-bottom:40px;background:#f5f4f6}
+.panel-right .panel-title.cell{background:#23292d;padding:20px 40px;text-align:center;border-bottom:solid 1px #e3e3e4;margin:0;list-style:none}
+.panel-right .panel-title h3{margin:0;color:#fff;padding:0;font-size:18px;font-weight:400;text-align:center}
+.panel-right .panel-db-plugin .cell{padding:20px;border-bottom:solid 1px #e3e3e4;margin:0;list-style:none}
+.panel-right .panel-db-plugin .cell:last-child{border-bottom-width:2px}
+.panel-right .panel-db-plugin ul{margin:0}
+.panel-left h3,.panel-right h3,.panel-right p:first-child{margin-top:0}
+.panel-right .panel-db-plugin img{padding:0}
+.panel-right .panel-club img{padding-bottom:0;width:100%;max-width:100%;height:auto}
+.panel-right .panel-aside .club-button{width:100%;text-align:center;background-color:#06c;line-height:46px;height:48px;margin-top:10px;font-size:15px}
+
+/** --------------------------------------------------------------------------------- *
+ *  主题授权
+ *  --------------------------------------------------------------------------------- */
+#theme-license .form-table th{width:150px;font-size:16px}
+#theme-license .form-table td p{font-size:13px}
+#theme-license .components-button{cursor:pointer}
+#theme-license input[name=dqtheme_theme_license_key]{font-size:18px}
+
+
+/** --------------------------------------------------------------------------------- *
+ *  响应式
+ *  --------------------------------------------------------------------------------- */
+@media (prefers-reduced-motion:reduce){
+	.dq-blocks-settings-page .components-button{transition-duration:0s}
+}
+@media only screen and (max-width:1140px){
+	.dq-blocks_page_dq-blocks-getting-started.auto-fold #wpcontent{padding-left:0}
+	.dq-blocks-grid-2{grid-template-columns:1fr;grid-template-areas:"col1";grid-gap:0 2em}
+	.dq-blocks-grid-3{grid-template-columns:1fr;grid-template-areas:"col1";grid-gap:0 2em}
+	.dq-gs-intro h2{font-size:32px}
+	.dq-gs-resources{margin-top:30px}
+	.dq-gs-resource{padding:30px;margin-bottom:30px}
+	.hide-mobile{display:none}
+}
+@media only screen and (max-width:782px){
+	.grow{flex-grow:0}
+	.hide-mobile{display:none}
+
+	.dq-blocks-settings-page .inline-list{margin-bottom:5%;padding:0 20px}
+	.dq-blocks-settings-page .inline-list li{width:100%}
+	.dq-blocks-settings-page .inline-list li a{width:100%;display:block}
+
+}
+
+
